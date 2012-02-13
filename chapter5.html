@@ -201,7 +201,7 @@ $
 
 <p>In the command window, press <b>Ctrl C</b> to stop the <b>WEBrick</b> server.</p>
 <p><b>Note</b>: (Thanks to <a href="https://github.com/jolisper">Jorge Luis Perez</a>) - <b>Ctrl C</b> may not work in some distributions. In such cases, you can start an app with the WEBrick handler as follows:</p>
-<pre>Rack::Server.new( { :app => my_rack_proc, :server => 'webrick', :Port => 8500 } ).start
+<pre>Rack::Server.new( { :app => my_rack_proc, :server => 'webrick', :Port => 9876 } ).start
 </pre>
 <p>You can find more details on Rack::Server <a href="http://rack.rubyforge.org/doc/classes/Rack/Server.html">here</a>.</p>
 
